@@ -3,7 +3,7 @@ Contributors: Ataurr, wpmet, emranio, easin55474, enamulhoquemohon
 Tags: elementor addons, mega menu, header footer builder, elements, elementor extensions, elementor modules, page builder addons, elementor addon, elementor widget, addons
 Requires at least: 5.0
 Tested up to: 5.7
-Stable tag: 2.2.3
+Stable tag: 2.2.4
 Requires PHP: 7.0
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -347,6 +347,14 @@ Our Hotspot Widget for Elementor page builder offers lots of styles including: H
 - Widgets area
 
 == Changelog ==
+
+Version: 2.2.4 (10-05-2021)
+New: Back To Top Widget.
+New: Hover Trigger on Tab Widget.
+New: Back to Top Widget.
+New: Clear Cache button added for Facebook Feed Settings.
+Tweak: Dashboard UI Improvement.
+Fix: Duration control for Progressbar Widget.
 
 Version: 2.2.3 (05-05-2021)
 New: Blog Posts Widget Floating Category.

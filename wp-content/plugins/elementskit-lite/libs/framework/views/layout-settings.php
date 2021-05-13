@@ -26,7 +26,7 @@
 
                 <?php if(\ElementsKit_Lite::package_type() == 'free'): ?>
                 <li role="presentation" class="ekit-go-pro-nav-tab">
-                    <a class="ekit-admin-nav-link" id="v-elementskit-ekit-go-pro-nav-tab" href="https://go.wpmet.com/ekitpro" role="tab" target="_blank">
+                    <a class="ekit-admin-nav-link" id="v-elementskit-ekit-go-pro-nav-tab" href="https://wpmet.com/elementskit-pricing" role="tab" target="_blank">
                         <div class="ekit-admin-tab-content">
                             <span class="ekit-admin-title"><?php echo esc_html__('Go Premium', 'elementskit-lite'); ?></span>
                             <span class="ekit-admin-subtitle"><?php echo esc_html__('Get premium features', 'elementskit-lite'); ?></span>

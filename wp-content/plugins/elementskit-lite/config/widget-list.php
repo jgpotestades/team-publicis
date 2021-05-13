@@ -271,6 +271,12 @@ class Widget_List extends \ElementsKit_Lite\Core\Config_List{
 				'package' => 'free',
 				'widget-category' => 'form-widgets' // Form Widgets
 			],
+			// 'back-to-top'    => [
+			// 	'slug'    => 'back-to-top',
+			// 	'title'   => 'Back To Top',
+			// 	'package' => 'free',
+			// 	'widget-category' => 'general' //general
+			// ],
 			'advanced-accordion' => [
 				'slug'    => 'advanced-accordion',
 				'title'   => 'Advanced Accordion',

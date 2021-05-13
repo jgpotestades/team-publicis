@@ -122,12 +122,12 @@ class Plugin{
 		    ->set_parent_menu_slug('elementskit')
 		    ->set_plugin_file('elementskit-lite/elementskit-lite.php')
 		    ->set_pro_link(
-		    	((\ElementsKit_Lite::package_type() != 'free') ? '' : 'https://go.wpmet.com/ekitpro')
+		    	((\ElementsKit_Lite::package_type() != 'free') ? '' : 'https://wpmet.com/elementskit-pricing')
 		    )
 		    ->set_default_grid_thumbnail(\ElementsKit_Lite::lib_url() . 'pro-awareness/assets/support.png')
 
 		    ->set_page_grid([
-			    'url' => 'https://go.wpmet.com/facebook-group',
+			    'url' => 'https://wpmet.com/fb-group',
 			    'title' => 'Join the Community',
 			    'thumbnail' => \ElementsKit_Lite::lib_url() . 'pro-awareness/assets/community.png',
 		    ])
@@ -141,8 +141,8 @@ class Plugin{
 			    'title' => 'Request a feature',
 			    'thumbnail' => \ElementsKit_Lite::lib_url() . 'pro-awareness/assets/request.png',
 		    ])
-		    ->set_plugin_row_meta('Documentation','https://go.wpmet.com/ekitdoc', ['target'=>'_blank'])
-		    ->set_plugin_row_meta('Facebook Community','https://go.wpmet.com/facebook-group', ['target'=>'_blank'])
+		    ->set_plugin_row_meta('Documentation','https://wpmet.com/elementskit-docs', ['target'=>'_blank'])
+		    ->set_plugin_row_meta('Facebook Community','https://wpmet.com/fb-group', ['target'=>'_blank'])
 		    ->set_plugin_row_meta('Rate the plugin ★★★★★','https://wordpress.org/support/plugin/elementskit-lite/reviews/#new-post', ['target'=>'_blank'])
 		    ->set_plugin_action_link('Settings',admin_url() . 'admin.php?page=elementskit')
 		    ->set_plugin_action_link(($is_pro_active ? '' : 'Go Premium'),'https://wpmet.com/plugin/elementskit', ['target'=>'_blank', 'style' => 'color: #FCB214; font-weight: bold;'])
